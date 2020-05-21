@@ -1,0 +1,65 @@
+.pokeball {
+    width: 10%;
+    display: none;
+    padding-bottom: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.jumbo {
+    background-color: red;
+}
+#title {
+    color: white;
+}
+#search {
+    width: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h2 {
+    font-size: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    margin-left: 40px;
+}
+
+@media (min-width: 768px) {
+    #search {
+        width: 25rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    .pokeball {
+        display: inline-block;
+        width: 15%;
+    }
+}
+
+@media (min-width: 960px) {
+    h1 {
+        font-size: 4.5rem;
+    }
+    #search {
+        width: 30rem;
+    }
+    .jumbo {
+        background-image: url("./img/backgroundlg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #title {
+        color: white;
+    }
+}
